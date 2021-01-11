@@ -70,7 +70,11 @@
                 <artifactId>vavr</artifactId>
                 <version>${vavr.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.11</version>
+            </dependency>
             <!-- Logging dependencies -->
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
